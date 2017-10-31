@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+    <struts>
+    <!--对象编码方式设为UTF-8  -->
+  <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+  	<!--对象的管理交由spring进行  -->
+  <constant name="struts.objectFactory" value="spring"/>
+  	<!--使用basicstruts -->
+  <package name="basicstruts" extends="struts-default">
+        
+ </package>
+</struts>
+
+
